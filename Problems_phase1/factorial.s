@@ -1,4 +1,4 @@
-._start:
+main:
 	andi t0 , t0 , 0
 	la a0 , 0XFFFFFFFF
 	lw t0 , 0(a0)
