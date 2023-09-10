@@ -6,4 +6,5 @@ This project is a RISC-V assembler and simulator implemented in C++. It is desig
 [RISC-V Insturction Manual](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf)
 
 This project is a part of my course-work for CSN-221 (Computer Architecture and Microprocessors)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+# Badges
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
