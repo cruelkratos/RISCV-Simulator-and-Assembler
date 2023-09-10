@@ -50,8 +50,7 @@ class Assembler{
         out+= reg_bin(this->registers[v[1]]); //encodes rd(destination register location)
         if(v.size()==3){
             
-            if(v[0][0] == 'l'){
-
+        if(v[0][0] == 'l'){
         switch (v[0][1]) {
         case 'w':
             out += "000";
@@ -72,21 +71,13 @@ class Assembler{
         default:
             std::cerr << "Invalid input." << std::endl;
             out = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-            break;
-    }
-            }
+            break;}}
             else{
                 //store word
-
-            }
-
-            
+            }   
         }
-
         else{
-
-        }
-        
+        }  
     }
 };
     
