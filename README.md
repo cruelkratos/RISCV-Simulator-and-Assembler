@@ -3,8 +3,8 @@ This project is a RISC-V assembler and simulator implemented in C++. It is desig
 
 ## Documentation
 
-*[RISC-V Insturction Manual](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf)
-*[RISC-V Card by jameslzhu](https://github.com/jameslzhu/riscv-card)
+* [RISC-V Insturction Manual](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf)
+* [RISC-V Card by jameslzhu](https://github.com/jameslzhu/riscv-card)
 
 This project is a part of my course-work for CSN-221 (Computer Architecture and Microprocessors)
 # Badges
