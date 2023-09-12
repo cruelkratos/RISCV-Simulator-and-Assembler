@@ -9,21 +9,8 @@
 #include "assemble.hpp"
 
 Assembler::Assembler() {
-    // Constructor initialization here
-  this->opcodes["add"] = "0110011";
-  this->opcodes["sub"] = "0110011";
-  this->opcodes["lw"] = "0000011";
-  this->registers["t1"] = 6;
-  this->registers["a0"] = 10;
-  this->registers["a1"] = 11;
-  this->opcodes["lh"] = "0000011";
-  this->opcodes["lb"] = "0000011";
-  this->opcodes["sw"] = "0100011";
-  this->opcodes["sh"] = "0100011";
-  this->opcodes["sb"] = "0100011";
-  this->registers["ra"] = 1;
-  this->registers["t0"] = 5;
-  this->registers["t2"] = 7;
+    // Constructor initialized in hpp file
+  
 }
 
 std::string Assembler::check_bin(int num, int size) {
@@ -151,7 +138,7 @@ int main() {
             fout<<a.encode(inst)<<std::endl;
         }
     }
-    fin.close();
+    fin.close();    
     fout.close();
     return 0;
 }
