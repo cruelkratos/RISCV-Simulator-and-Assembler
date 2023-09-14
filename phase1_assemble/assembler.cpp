@@ -127,7 +127,7 @@ int main() {
     Assembler a;
     std::string s;
     std:: ifstream fin("instruction.txt");
-    std:: ofstream fout("encodings.txt");
+    std:: ofstream fout("encoding.txt");
     while (getline(fin, s)) {
         std::vector<std::string> inst =  a.opgen(s);
         if(a.opcodes.find(inst[0])==a.opcodes.end()){
