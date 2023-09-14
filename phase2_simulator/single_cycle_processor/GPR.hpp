@@ -10,5 +10,7 @@ class RF{
     ~RF(){
         Register.clear();
     }
-
+    std::bitset<32> getReg(int index){
+        return Register[index];
+    }
 };
