@@ -6,6 +6,9 @@ class RF{
     public:
     RF(){
         Register.resize(32);
-        
     }
+    ~RF(){
+        Register.clear();
+    }
+
 };
